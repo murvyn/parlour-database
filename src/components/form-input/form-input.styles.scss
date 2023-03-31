@@ -1,0 +1,50 @@
+.field {
+  height: 50px;
+  width: 18rem;
+  margin-top: 20px;
+  position: relative;
+}
+  input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+    background: #fff;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  input:focus,
+  input:valid {
+    // border: none;
+    // background: none;
+    // border-bottom: 1px solid #eee;
+    // border-radius: 0;
+    border-color: #eee;
+  }
+  label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  input:focus ~ label,
+  input:active ~ label {
+    // top: 0%;
+    // font-size: 16px;
+    // color: #4158d0;
+    // background: none;
+    // transform: translateY(-50%);
+    display: none;
+  }
+
+  input[type="password"] {
+    letter-spacing: 0.3em;
+  }
