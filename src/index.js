@@ -1,13 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "../node_modules/react-bootstrap/dist/react-bootstrap.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { DataProvider } from "./context/chart.context";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <DataProvider>
+        <App />
+      </DataProvider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

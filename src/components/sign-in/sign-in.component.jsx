@@ -2,6 +2,7 @@ import { useState } from "react";
 import FormInput from "../form-input/form-input.component";
 import "./sign-in.styles.scss";
 
+
 const defaultValues = {
   email: "",
   password: "",
@@ -21,9 +22,11 @@ const SignIn = () => {
   };
 
   return (
+   
+
     <div className="login-container">
       <div className="login-box">
-        <div className="heading">
+        <div className="heading mt-4">
           <h2>Parlour Database</h2>
         </div>
         <div className="formField">
@@ -84,7 +87,9 @@ const SignIn = () => {
           </form>
         </div>
       </div>
+
     </div>
+  
   );
 };
 

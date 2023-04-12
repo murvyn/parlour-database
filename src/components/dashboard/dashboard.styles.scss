@@ -1,0 +1,112 @@
+#box {
+    width: 90vw;
+    position: relative;
+    left: -3rem;
+}
+
+.icon {
+    width: 2rem;
+    position: relative;
+    left: -1rem;
+    border-radius: .5rem;
+    background: rgba(0, 255, 255, 0.3);
+    color: rgb(48, 199, 199);
+}
+
+#two {
+    background: rgba(255, 0, 0, 0.3);
+    color: rgb(199, 48, 48);
+}
+#three {
+    background: rgba(3, 255, 3, 0.3);
+    color: rgb(71, 230, 22);
+}
+#four {
+    background: rgba(98, 0, 255, 0.3);
+    color: rgb(98, 0, 255);
+}
+
+.cardTitle {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(173, 179, 184);
+}
+
+.cardText {
+    font-size: 14px;
+    color: rgb(173, 179, 184);
+    font-weight: 500;
+}
+
+.chartBox {
+    background: white; 
+    height: 26rem;
+    border-radius: 0.3rem;
+     width:40rem;
+     position: relative;
+     left: 0.8rem;
+}
+
+.catHead {
+    font-size: 0.9rem;
+    margin-bottom: 2px;
+}
+
+.catText{
+    font-size: 0.9rem;
+    color: rgb(136, 132, 132);
+}
+
+#five{
+    background: rgb(171, 231, 231);
+    color: rgb(25, 146, 146);
+    height: 40px;
+    width: 40px;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#six{
+    background: rgba(255, 142, 14,0.3);
+    color: rgb(255, 142, 14);
+    height: 40px;
+    width: 40px;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+#seven{
+    background: rgba(255, 0, 0, 0.3);
+    color: rgb(255,0,0);
+    height: 40px;
+    width: 40px;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.endTitle {
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+}
+
+.endCard {
+    position: relative;
+    top: -4.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+
+    span {
+        color: rgb(4, 109, 141);
+    }
+}
